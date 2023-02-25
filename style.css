@@ -18,7 +18,14 @@ body {
 	padding: 50px;
 	font: 18px/1.5 sans-serif;
 	background-color: white;
-	color: black;
+	color: red
+	.muj_super_styl{
+		background-color: bisque;
+		color: red;
+	}
+	.csstrida{
+		color: blue;
+	};
 }
 
 h1,
@@ -120,4 +127,15 @@ li {
 	background-color: cyan;
 	color: black;
 	border-color: blue;
+}
+
+.muj_super_styl{
+	background-color: bisque;
+	color: red;
+}
+.csstrida{
+	color: blue;
+}
+.odstavec{
+	font-size: 16px;
 }

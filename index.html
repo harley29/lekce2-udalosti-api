@@ -8,6 +8,24 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div onemouseover="priNajeti()">
+	<p class="odstavec">V elipse spí lev</p>
+
+</div>
+
+<div onclick="zmenBarvu">
+	<button class="tlacitko_2">červený po kliknutí</button>
+
+</div>
+
+<div>
+<button class="zvuk 0">"0"</button>
+<button class="zvuk 0.5">"0.5"</button>
+<button class="zvuk 1">"1"</button>
+
+<audio id="zvuk"> src="audio/dingdingdang.mp3" preload="auto"></audio>
+
+</div>
 
 	<h1>Změna tříd, události</h1>
 
@@ -19,7 +37,9 @@
 
 	<button class="tlacitko">Čudlajs</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	
+
+	<script src="main.js"></script>
 
 </body>
 </html>
